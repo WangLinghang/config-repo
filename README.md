@@ -1,2 +1,2 @@
-# springcloud-demo
-a springcloud demo
+# config-repo
+config-repo
