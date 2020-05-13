@@ -1,7 +1,7 @@
 spring:
   application:
     name: api-gateway
-env: dev
+env: master
 zuul:
   routes:
     productServer:
