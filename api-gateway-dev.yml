@@ -4,6 +4,7 @@ spring:
 env: dev
 zuul:
   routes:
-    productServer:
-      path: /productServer/**
-      serviceId: product
+    product: /productServer/**
+#     productServer:
+#       path: /productServer/**
+#       serviceId: product
