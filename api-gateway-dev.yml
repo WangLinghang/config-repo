@@ -4,7 +4,7 @@ spring:
 env: dev
 zuul:
   routes:
-    product: /productServer4/**
+    product: /productServer5/**
 #   ignored-patterns:
 #     - /**/product/listForOrder
     productServer:
