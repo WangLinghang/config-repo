@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: api-gateway
+env: master
+zuul:
+  routes:
+    product: /productServer/**
+#     productServer:
+#       path: /productServer/**
+#       serviceId: product
