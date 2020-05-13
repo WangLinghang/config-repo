@@ -5,6 +5,8 @@ env: dev
 zuul:
   routes:
     product: /productServer/**
+#   ignored-patterns:
+#     - /**/product/listForOrder
 #     productServer:
 #       path: /productServer/**
 #       serviceId: product
