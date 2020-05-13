@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: api-gateway
+env: dev
+zuul:
+  routes:
+    productServer:
+      path: /productServer/**
+      serviceId: product
