@@ -4,7 +4,10 @@ spring:
 env: dev
 zuul:
   routes:
-    user: /user/**
+    user: 
+      path: /user/**
+      serviceId: user
+      sensitiveHeaders: 
     order: /order/**
     product: /productServer6/**
 #   ignored-patterns:
