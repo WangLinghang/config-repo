@@ -3,6 +3,8 @@ spring:
     name: api-gateway
 env: dev
 zuul:
+  #全部服务忽略消息头
+  sensitive-headers:
   routes:
     user: 
       path: /user/**
