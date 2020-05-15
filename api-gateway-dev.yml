@@ -3,7 +3,7 @@ spring:
     name: api-gateway
 env: dev
 zuul:
-  #全部服务忽略消息头
+  #全部服务忽略敏感头，可传递cookie
   sensitive-headers:
   routes:
     user: 
